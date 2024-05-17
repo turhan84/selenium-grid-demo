@@ -62,7 +62,7 @@ public class Driver {
                 case "remote-firefox":
                     try {
                         // assign your grid server address
-                        String gridAddress = "54.196.44.18";
+                        String gridAddress = "54.162.50.13";
                         URL url = new URL("http://"+ gridAddress + ":4444/wd/hub");
                         FirefoxOptions firefoxOptions=new FirefoxOptions();
                         firefoxOptions.addArguments("--start-maximized");
